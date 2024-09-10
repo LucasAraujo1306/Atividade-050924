@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Menu de navegação */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #878787;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #808080;
+  color: rgb(0, 0, 0);
+}
+
+/* Imagem Central */
+.imagem{
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+/* Seção principal */
+.descricao {
+  padding: 20px;
+  text-align: center;
+}
+
+.galeria {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.galeria img {
+  margin: 10px;
+}
+
+.carros {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.carros figure {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+.carros figcaption {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Tabela*/ 
+
+h2{
+  text-align: center;
+}
+
+.tabela {
+  padding: 20px;
+  margin: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: grey;
+}
+
+
+
+/* Rodapé */
+footer {
+
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
