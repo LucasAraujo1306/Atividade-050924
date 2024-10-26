@@ -1,4 +1,4 @@
 # Atividade-050924
 Atividade: Criação de um site de locação de carros
 
-https://github.com/LucasAraujo1306/Atividade-050924/issues/1#issue-2615442010
+![MyrentCar](https://github.com/user-attachments/assets/4694dbc2-44e4-492e-89f4-f0802e059068)
